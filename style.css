@@ -94,6 +94,9 @@ p {
     color: var(--secondary-color);
 }
 
+.navbar-toggler {
+    color: var(--secondary-color);
+}
 
 @media (max-width: 576px) {
 
