@@ -1,0 +1,120 @@
+:root {
+    --background-color: rgba(27, 28, 31, 1);
+    --primary-color: rgb(246,241,235);
+    --secondary-color: rgb(107, 108, 111);
+}
+
+body {
+    margin: 100px;
+    background: var(--background-color);
+}
+
+h3 {
+    margin-top: 90px;
+    text-align: center;
+    font-family: 'Courier Prime', monospace;
+    font-size: 26px;
+    color: var(--primary-color);
+}
+
+h4 {
+    margin: 10px auto;
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 20px;
+    font-family: 'Courier Prime', monospace;
+    max-width: 60%;
+}
+
+h5 {
+    font-family: 'Courier Prime', monospace;
+    color:var(--secondary-color);
+}
+
+.logo {
+    display: block;
+    margin: 30px auto;
+    width: 150px;
+}
+
+
+.navbar-logo{
+    width: 80px;
+}
+
+.brand-info{
+    display: block;
+    text-align: center;
+    margin: 125px 20px;
+}
+
+.story-behind {
+    font-size: 28px;
+    font-family: 'Courier Prime', monospace;
+    color: var(--primary-color);
+}
+
+.story-text {
+    font-size: 22px;
+    font-family: 'Courier Prime', monospace;
+    color: var(--primary-color);
+}
+
+
+button {
+    display: block;
+}
+
+a:hover {
+    color: rgb(68,68,68);
+    text-decoration: underline;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-family: 'Courier Prime', monospace;
+}
+
+p {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-family: 'Courier Prime', monospace;
+}
+
+.straddle a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-family: 'Courier Prime', monospace;
+    display: block;
+}
+
+
+.saddle-description {
+    color: var(--secondary-color);
+}
+
+
+@media (max-width: 576px) {
+
+    body {
+        margin: 30px;
+    }
+
+    h4 {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+  
+    h3 {
+      font-size: 18px;
+      text-align: center;
+    }
+  
+    p {
+      text-align: center;
+      font-size: 14px;
+    }
+  
+   
+  }
